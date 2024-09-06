@@ -22,3 +22,11 @@ This project implements a dynamic multilevel caching system in Java. The system 
    ```bash
    git clone https://github.com/yourusername/dynamic-multilevel-caching-system.git
    ```
+
+## Sample Usage
+
+1. Add cache levels:
+   ```java
+   cache.addCacheLevel(3, "LRU");
+   cache.addCacheLevel(2, "LFU");
+   ```
